@@ -1,0 +1,28 @@
+.header {
+    width: 1280px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+    
+}
+.header img {
+    background-image: none;
+    size: 100%;
+    /* position: absolute; */
+   
+}
+.text1 {
+    position: absolute;
+    
+
+}
+.textnav {
+    text-transform: uppercase;
+    /* position: absolute;
+    padding-left: 50px; */
+}
+.clear {
+    clear: both;
+}
