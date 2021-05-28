@@ -1,28 +1,50 @@
 .header {
     width: 1280px;
     height: 900px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
-    
-    
-    
+       
 }
-.header img {
-    background-image: none;
-    size: 100%;
-    /* position: absolute; */
-   
+.img-wraper {
+    position: relative;
 }
+
 .text1 {
     position: absolute;
-    
+    top: 51px;
+    left: 67px;
+    font-size: 28px;
+}
+.lorem1 {
+    width: 1017.44px;
+    height: 144.83px;
+    padding-top: 336.5px;
+    padding-left: 131.3px;
+    position: absolute;
+}
+.text2 {
+    position: absolute;
+    top: 336.5px;
 
 }
+
 .textnav {
-    text-transform: uppercase;
-    /* position: absolute;
-    padding-left: 50px; */
+    position: absolute;
+    top: 51px;
+    display: inline-flex;
+    left: 792.4px;
+    justify-content: space-between;
 }
+
+.nav1 {
+    justify-content: space-between;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+
+}
+
 .clear {
     clear: both;
 }
