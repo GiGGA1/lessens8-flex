@@ -1,28 +1,111 @@
-.header {
+.background-img {
+    background-image: url("../img/Group5.jpg");
+    background-repeat: no-repeat;
     width: 1280px;
     height: 900px;
+    background-position: left top;
+    background-size: cover;
+    position: relative;
     margin: 0 auto;
+}
+.flex-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    
-    
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+           . flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.flex-box1 {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.title3 {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: Lato;
+    color: #fff;
+    font-size: 100px;
+}
+.nav-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70.3px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.container1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     
 }
-.header img {
-    background-image: none;
-    size: 100%;
-    /* position: absolute; */
-   
+.nav-a {
+    margin-right: 31px;
+    font-family: Poppins;
+    font-weight: 500px;
+    font-size: 12px;
+}
+.title1 {
+    margin-top: 51px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 28px;
+    color: #d9f0ff;
+}
+.div2 {
+    width: 1280px;
+    height: 601.44px;
+    margin: 0 auto;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+}
+.box1 {
+    width: 640px;
+    height: 601.44px;
+    background-color: azure;
+    position: absolute;
+    display: flex;
+  
+}
+.box2 {
+    background-image: url(../img/Rectangle2.jpg);
+    position: absolute;
+    width: 640px;
+    height: 601.44px;
+    background-color: blue;
+    left: 640px;
 }
 .text1 {
-    position: absolute;
-    
+    width: 468px;
+    height: 186px;
+    margin-top: 90px;
+    margin-left: 86px;
+    font-size: 50px;
 
 }
-.textnav {
-    text-transform: uppercase;
-    /* position: absolute;
-    padding-left: 50px; */
-}
-.clear {
-    clear: both;
+.text2 {
+    width: 457px;
+    height: 128px;
+    margin-top: 24px;
+    margin-left: 86px;
 }
