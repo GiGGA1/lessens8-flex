@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     width: 1280px;
     height: 900px;
-<<<<<<< HEAD
     background-position: left top;
     background-size: cover;
     position: relative;
@@ -16,7 +15,7 @@
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-           . flex-direction: row;
+    .flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -86,6 +85,7 @@
     background-color: azure;
     position: absolute;
     display: flex;
+    flex-direction: column;
   
 }
 .box2 {
@@ -109,52 +109,73 @@
     height: 128px;
     margin-top: 24px;
     margin-left: 86px;
-=======
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: flex;
+    font-size: 16px;
        
 }
-.img-wraper {
+.text3 {
+    width: 307px;
+    height: 72px;
+    background-color: #325DFF;
+    margin-left: 82px;
+    border-radius: 36px;
+    padding-top: 27px;
+    padding-left: 45px;
+    font-size: 14px;
+    color: white;
+    
+}
+.footer-box {
+    width: 1280px;
+    height: 1193px;
+    background-color: rgba(227, 248, 248, 0.966);
+    margin: 0 auto;
     position: relative;
-}
 
-.text1 {
+}
+.foot-box {
+    width: 1171px;
+    height: 965px;
     position: absolute;
-    top: 51px;
-    left: 67px;
-    font-size: 28px;
+    margin-top: 76.6px;
+    margin-left: 55px;
+    background-color: blanchedalmond;
 }
-.lorem1 {
-    width: 1017.44px;
-    height: 144.83px;
-    padding-top: 336.5px;
-    padding-left: 131.3px;
-    position: absolute;
+.foot-div {
+    width: 771px;
+    height: 130px;
+    position: relative;
+    margin-left: 225px;
+    display: flex;
+    flex-direction: column;
 }
-.text2 {
-    position: absolute;
-    top: 336.5px;
-
+.foot-text1 {
+    font-size: 35px;
+    text-align: center;
 }
-
-.textnav {
-    position: absolute;
-    top: 51px;
-    display: inline-flex;
-    left: 792.4px;
-    justify-content: space-between;
+.foot-text2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+   
 }
-
-.nav1 {
-    justify-content: space-between;
-    padding-left: 30px;
-    text-transform: uppercase;
-    font-size: 12px;
-
-
+.div6 {
+    width: 1171px;
+    height: 776px;
+    background-color: red;
 }
-
-.clear {
-    clear: both;
->>>>>>> fc628a3dc0c333be3681b0b963b38df0c4657197
+.foot-div1 {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    flex-flow: row wrap;
+    
+}
+.foot-div2 {
+    width: 1171px;
+    height: 965px;
+    background-color: crimson;
+    display: flex;
+    flex-flow: row wrap;
 }
