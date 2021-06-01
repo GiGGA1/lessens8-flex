@@ -129,7 +129,6 @@
 .footer-box {
     width: 1280px;
     height: 1193px;
-    background-color: rgba(227, 248, 248, 0.966);
     margin: 0 auto;
     position: relative;
 
@@ -140,7 +139,7 @@
     position: absolute;
     margin-top: 76.6px;
     margin-left: 55px;
-    background-color: blanchedalmond;
+    
 }
 .foot-div {
     width: 771px;
@@ -163,19 +162,51 @@
 .div6 {
     width: 1171px;
     height: 776px;
-    background-color: red;
-}
-.foot-div1 {
-    width: 150px;
-    height: 150px;
-    background-color: crimson;
-    flex-flow: row wrap;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     
 }
-.foot-div2 {
-    width: 1171px;
-    height: 965px;
-    background-color: crimson;
+.foot-div1 {
+    justify-content: space-around;
+    position: relative;
     display: flex;
-    flex-flow: row wrap;
+        
+}
+
+.umbrela {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 143px;
+    top: 67px;
+}
+.icon {
+    position: absolute;
+    left: 27px;
+    top: 27px;
+    
+}
+.font1 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 132px;
+    margin-bottom: 9px;
+}
+.font2 {
+    font: 16px;
+    color: black;
+    text-align: center;
+
+}
+.clear {
+    clear: both;
+}
+.marg {
+    width: 371px;
+    height: 374px;
 }
