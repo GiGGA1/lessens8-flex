@@ -1,7 +1,8 @@
 .background-img {
     background-image: url("../img/Group5.jpg");
     background-repeat: no-repeat;
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     height: 900px;
     background-position: left top;
     background-size: cover;
@@ -40,6 +41,7 @@
     font-family: Lato;
     color: #fff;
     font-size: 100px;
+
 }
 .nav-li {
     display: -webkit-box;
@@ -48,6 +50,7 @@
     margin-top: 70.3px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    color: white;
 }
 .container1 {
     display: -webkit-box;
@@ -57,6 +60,9 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     
+}
+.color-nav {
+    color: white;
 }
 .nav-a {
     margin-right: 31px;
@@ -72,50 +78,58 @@
     color: #d9f0ff;
 }
 .div2 {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     height: 601.44px;
     margin: 0 auto;
     position: relative;
     flex-wrap: wrap;
     display: flex;
+    
 }
 .box1 {
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
     height: 601.44px;
     background-color: azure;
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   
 }
 .box2 {
-    background-image: url(../img/Rectangle2.jpg);
+    /* background-image: url(../img/Rectangle2.jpg); */
     position: absolute;
-    width: 640px;
+    max-width: 640px;
+    width: 100%;
     height: 601.44px;
-    background-color: blue;
     left: 640px;
 }
 .text1 {
-    width: 468px;
+    max-width: 468px;
+    width: 100%;
     height: 186px;
     margin-top: 90px;
     margin-left: 86px;
     font-size: 50px;
+    font-family: lato;
 
 }
 .text2 {
-    width: 457px;
+    max-width: 457px;
+    width: 100%;
     height: 128px;
     margin-top: 24px;
     margin-left: 86px;
     margin: 0 auto;
     display: flex;
     font-size: 16px;
+    font-family: poppins;
        
 }
 .text3 {
-    width: 307px;
+    max-width: 307px;
+    width: 100%;
     height: 72px;
     background-color: #325DFF;
     margin-left: 82px;
@@ -124,17 +138,20 @@
     padding-left: 45px;
     font-size: 14px;
     color: white;
+    font-family: lato;
     
 }
 .footer-box {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     height: 1193px;
     margin: 0 auto;
     position: relative;
 
 }
 .foot-box {
-    width: 1171px;
+    max-width: 1171px;
+    width: 100%;
     height: 965px;
     position: absolute;
     margin-top: 76.6px;
@@ -142,7 +159,8 @@
     
 }
 .foot-div {
-    width: 771px;
+    max-width: 771px;
+    width: 100%;
     height: 130px;
     position: relative;
     margin-left: 225px;
@@ -152,15 +170,18 @@
 .foot-text1 {
     font-size: 35px;
     text-align: center;
+    font-family: lato;
 }
 .foot-text2 {
     padding-top: 20px;
     text-align: center;
     font-size: 16px;
+    font-family: poppins;
    
 }
 .div6 {
-    width: 1171px;
+    max-width: 1171px;
+    width: 100%;
     height: 776px;
     position: absolute;
     display: flex;
@@ -176,7 +197,8 @@
 }
 
 .umbrela {
-    width: 88px;
+    max-width: 88px;
+    width: 100%;
     height: 88px;
     background-color: #325DFF;
     border-radius: 50px;
@@ -196,17 +218,21 @@
     text-align: center;
     margin-top: 132px;
     margin-bottom: 9px;
+    font-family: lato;
 }
 .font2 {
-    font: 16px;
+    font-size: 16px;
     color: black;
     text-align: center;
+    font-family: poppins;
 
 }
+
 .clear {
     clear: both;
 }
 .marg {
-    width: 371px;
+    /* max-width: 371px; */
+    width: 100%;
     height: 374px;
 }
