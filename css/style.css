@@ -92,10 +92,6 @@
     background-image: url("../img/Rectangle2.jpg");
     height: 601.44px;
     width: 100%;
-    background-position: top right;
-    background-repeat: no-repeat;
-    
-    
 }
 .text1 {
     max-width: 468px;
@@ -157,10 +153,9 @@
     max-width: 771px;
     width: 100%;
     height: 130px;
-    position: relative;
-    margin-left: 225px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 .foot-text1 {
     font-size: 35px;
