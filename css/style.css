@@ -68,29 +68,21 @@
 /* body */
 
 .div2 {
-    max-width: 1280px;
-    width: 100%;
-    height: 601.44px;
-    margin: 0 auto;
-    position: relative;
-    /* flex-wrap: wrap; */
-    /* display: flex; */
-    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .box1 {
     max-width: 640px;
     width: 100%;
     height: 601.44px;
-    background-color: azure;
-    position: absolute;
-    /* display: flex;
-    flex-direction: column; */
+    margin: 0 auto;
   
 }
 .box2 {
     background-image: url("../img/Rectangle2.jpg");
     height: 601.44px;
+    max-width: 641px;
     width: 100%;
 }
 .text1 {
@@ -131,13 +123,20 @@
     
 }
 .footer-box {
-    max-width: 1280px;
-    width: 100%;
-    height: 1193px;
-    margin: 0 auto;
-    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 
 }
 .foot-box {
@@ -148,14 +147,13 @@
     margin-top: 76.6px;
     margin-left: 55px;
     
+    
 }
 .foot-div {
     max-width: 771px;
     width: 100%;
-    height: 130px;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
+    
 }
 .foot-text1 {
     font-size: 35px;
@@ -180,9 +178,7 @@
     
 }
 .foot-div1 {
-    justify-content: space-around;
-    position: relative;
-    display: flex;
+     display: flex;
         
 }
 
@@ -193,8 +189,18 @@
     background-color: #325DFF;
     border-radius: 50px;
     position: relative;
-    margin-left: 143px;
-    top: 67px;
+    margin: 0 auto;
+    margin-top: 67px;
+    margin-bottom: 27px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 .icon {
     position: absolute;
@@ -204,18 +210,16 @@
 }
 .font1 {
     font-size: 18px;
-    color: black;
+    font-family: Lato;
     text-align: center;
-    margin-top: 132px;
     margin-bottom: 9px;
-    font-family: lato;
+    font-weight: 600;
 }
 .font2 {
     font-size: 16px;
-    color: black;
-    text-align: center;
-    font-family: poppins;
-
+    font-family: Poppins;
+    line-height: 20px;
+    font-weight: 100;
 }
 
 .clear {
