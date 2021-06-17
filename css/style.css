@@ -13,20 +13,28 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .flex-box1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .title3 {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     position: absolute;
     font-family: Lato;
     color: #fff;
@@ -38,7 +46,8 @@
     display: -ms-flexbox;
     display: flex;
     margin-top: 70.3px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     color: white;
 }
 .container1 {
@@ -46,7 +55,8 @@
     display: -ms-flexbox;
     display: flex;
     background-color: #fff;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     
 }
 .color-nav {
@@ -68,8 +78,11 @@
 /* body */
 
 .div2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
@@ -144,6 +157,8 @@
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
     
     
 }
@@ -170,12 +185,20 @@
     width: 100%;
     height: 776px;
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     
 }
 .foot-div1 {
+     display: -webkit-box;
+     display: -ms-flexbox;
      display: flex;
         
 }
@@ -228,8 +251,7 @@
 }
 
 .box-foot {
-    max-width: 1280px;
-    width: 100%;
+    margin: 0 auto;
 }
 .clear {
     clear: both;
@@ -245,6 +267,8 @@
     height: 374px;
 }
 .div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .padding-top {
